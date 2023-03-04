@@ -1,14 +1,11 @@
 *{
     margin: 0;
     padding: 0;
-    font-family: 'Source Sans Pro', sans-serif;
-   
+    font-family: 'Source Sans Pro', sans-serif; 
 }
 body{
     overflow-x: hidden;
 }
-
-
 .first-nav{
     height: 30px;
     width: 100vw;
@@ -47,7 +44,6 @@ nav{
     z-index: 10;
     
 }
-
 /*Styling logo*/
 .logo{
     padding:1vh 1vw;
@@ -57,7 +53,6 @@ nav{
    height: 70px;
    margin-left: 50px;
 }
-
 /*Styling Links*/
 .nav-links{
     display: flex;
@@ -94,8 +89,6 @@ nav{
 .nav-links li a:hover::before{
     width: 80%;
 } */
-
-
 /*Styling Hamburger Icon*/
 .hamburger div{
     width: 30px;
@@ -107,18 +100,14 @@ nav{
 .hamburger{
     display: none;
 }
-
-
 .swiper {
     width: 100%;
     height: 100%;
   }
-
-  .swiper-slide {
+.swiper-slide {
     text-align: center;
     font-size: 18px;
     background: #fff;
-
     /* Center slide text vertically */
     display: -webkit-box;
     display: -ms-flexbox;
@@ -133,7 +122,6 @@ nav{
     -webkit-align-items: center;
     align-items: center;
   }
-
   .swiper-slide img {
     display: block;
     width: 100%;
@@ -143,12 +131,10 @@ nav{
   .sld{
     height: 80vh;
     width: 100vw;
-
   }
   .grid-one{
     height: 500px;
     width: 100vw;
-   
   }
   .grid-one h1{
     text-align: center;
@@ -159,7 +145,6 @@ nav{
     margin-top: 10px;
     text-align: center;
     font-size: 30px;
-   
   }
   .cards{
     height: 400px;
@@ -168,8 +153,6 @@ nav{
     flex-direction: row;
     justify-content: space-evenly;
     align-items: center;
-    
-  
   }
   .card{
     width: 400px;
@@ -177,7 +160,6 @@ nav{
     text-align: center;
     font-size: 20px;
     font-weight: 600;
-   
   }
   .card-image{
     height: 80%;
@@ -194,22 +176,17 @@ nav{
   .card-text{
     padding-left: 50px;
     padding-right: 20px;
-    color: #A10013;
-    
+    color: #A10013;  
   }
   .card-text p{
     width: 300px;
-    
-
   }
-
 .b-banner{
     height: 50vh;
     width: 100vw;
     display: flex;
     justify-content: center;
     align-items: center;
-
   }
   .b-banner img{
     height: 370px;
@@ -220,15 +197,13 @@ nav{
     display: flex;
     justify-content: center;
     align-items: center;
-
   }
   .c-banner img{
     height: 390px;
   }
 .banners{
     height: 80vh;
-    width: 100vw;
-    
+    width: 100vw;  
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
@@ -236,30 +211,18 @@ nav{
 }
 .first-banner{
     height: 95%;
-    width: 35%;
-    
-    
+    width: 35%;  
 }
 .first-banner img{
     height: 550px;
 }
 .second-banner{
     height: 95%;
-    width: 50%;
-    
+    width: 50%;  
 }
 .second-banner img{
     height: 550px;
 }
-
-
-
-
-
-
-
-
-
   /* About us */
 .about{
     background: url(./imgs/about.jpg) no-repeat left;
@@ -306,9 +269,7 @@ nav{
     background-color: #feffd0;
     color: #A10013;
 }
-.whatsapp-ak {
-   
-   
+.whatsapp-ak { 
 }
 .what{
     height: 60px;
@@ -317,14 +278,8 @@ nav{
     margin-top: 650px;
     margin-left: 1400px;
 }
-
-
-
-
-
 /* Contact US */
-.contact-con{
-    
+.contact-con{  
     position: relative;
     min-height: 100vh;
     padding: 50px 100px;
@@ -338,7 +293,6 @@ nav{
 .contact-con .content-con{
     max-width: 800px;
     text-align: center;
-
 }
 .contact-con .content-con h2{
     font-size: 45px;
@@ -360,7 +314,6 @@ nav{
     width: 50%;
     display: flex;
     flex-direction: column;
-
 }
 .cont .information .box{
     position: relative;
@@ -368,7 +321,6 @@ nav{
     display: flex;
     /* justify-content: center; */
     align-items: center;
-
 }
 .cont .information .box .icon{
     min-width: 60px;
@@ -387,20 +339,16 @@ nav{
     color: #fff;
     flex-direction: column;
     font-weight: 300;
-    
-
 }
 .cont .information .box .textinfo h3{
     font-weight: 600;
     color: #feffd0;
-
 }
 .contactform{
     width: 30%;
     padding: 40px;
     background: #fff;
     border-radius: 30px;
-
 }
 .contactform h2{
     font-size: 30px;
@@ -432,7 +380,6 @@ nav{
     pointer-events: none;
     transition: 0.5s;
     color: #666;
-
 }
 .contactform .inputbox input:focus ~ span,
 .contactform .inputbox input:valid ~ span,
@@ -452,13 +399,6 @@ nav{
     font-size: 18px;
     border-radius: 9px;
 }
-
-
-
-
-
-
-
 /* foOter */
 .footer{
     height: 25vh;
@@ -529,14 +469,12 @@ nav{
     .certified{
         height: 80vh;
         width: 100vw;
-      
         display: flex;
         flex-direction: column;
         justify-content: space-evenly;
         align-items: center;
     }
-    .cer-img{
-      
+    .cer-img{     
         height: 700px;
         width: 100vw;
         display: flex;
@@ -546,19 +484,16 @@ nav{
     }
     .certified img{
         height: 60px;
-    }
-   
+    }  
     .swiper-slide img{
         height: 160px;
         padding-left: 10px;
         padding-right: 10px;
         width: 100%;
-
     }
     .banners{
         height: 80vh;
         width: 100vw;
-        
         display: flex;
         flex-direction: column;
         justify-content: space-evenly;
@@ -571,8 +506,6 @@ nav{
         flex-direction: column;
         justify-content: space-evenly;
         align-items: center;
-        
-        
     }
     .first-banner img{
         height: 300px;
@@ -614,13 +547,11 @@ nav{
         display: flex;
         justify-content: center;
         align-items: center;
-    
       }
       .c-banner img{
         height: 150px;
       }
 }
-
 @media (max-width:991px){
     .contact-con{
         padding: 50px;
@@ -643,20 +574,17 @@ nav{
         text-align: center; 
         width: 90%;
         padding-left: 10px;
-        padding-right: 10px;
-        
+        padding-right: 10px;     
     }  
     .about{
        background-image: none;
     }
 }
-
 /*Stying for small screens*/
 @media screen and (max-width: 800px){
     .grid-one{
         height: 1300px;
-        width: 100vw;
-       
+        width: 100vw;  
       }
       .grid-one h1{
         /* text-align: center; */
@@ -669,11 +597,7 @@ nav{
         display: flex;
         flex-direction: column;
         justify-content: space-evenly;
-        align-items: center;
-        
-      
-        
-      
+        align-items: center; 
       }
     .sld{
         margin-top: 1px;
@@ -681,18 +605,13 @@ nav{
         width: 100vw;
         /* background-color: yellow; */
       }
-    
     .swiper {
         width: 100%;
         height: 100%;
       }
-
     .first-nav{
         display: none;
         position: absolute;
-
-
-
     }
     nav{
         /* position: fixed; */
